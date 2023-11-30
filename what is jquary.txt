@@ -1,0 +1,123 @@
+
+
+
+what is jquery?
+ ans: jquery is client side scripting language.
+     jquery is a libary uf javasript 
+     jquery call through its libary that is called javasript CDN
+     jquery CDN: content delivery network
+
+      </script>
+
+        1) offline CDN:
+                    jquery download from itsofficials website.
+                      https://jquery.com/
+
+          EX:    
+                   jquery function
+            <script>
+                 $(document).ready(function()
+                   {
+                      alert('hello')
+                       window.location='https://www.google.com'
+                   })
+        
+
+
+        2)  online CDN :
+                     
+            <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+
+             <script>
+                    $(document).ready (function()
+                     {
+                         alert('loading jquery online CDN')
+                         window.location='https://code.jquery.com';
+                     })
+        </script>
+
+            jquery called on button click:
+
+                    <script>
+      jQuery(Document).ready(function()
+     {
+         jQuery("#btn").click(function()
+         {
+            alert('hello google')
+            window.location='https://www.google.com';
+         })
+     } )
+    </script>
+
+
+
+
+       3)   jquery effect:
+
+             a)  hide
+                      <script>
+
+           $(document).ready(function()
+           {
+              $("#btn").click(function()
+              {
+                $("#demo").hide("slow");
+              })
+           });
+          </script>
+    
+             b)  show
+
+                   <script>
+
+           $(document).ready(function()
+           {
+              $("#btn").click(function()
+              {
+                $("#demo").hide("slow");
+              })
+           });
+
+           $(document).ready(function()
+           {
+              $("#btn1").click(function()
+              {
+                $("#demo").show("slow");
+              })
+           });
+             </script>
+
+    
+             C)  toggle
+                      <script>
+
+           $(document).ready(function()
+           {
+              $("#btn").click(function()
+              {
+                $("#demo").hide("slow");
+              })
+           });
+
+           $(document).ready(function()
+           {
+              $("#btn1").click(function()
+              {
+                $("#demo").show("slow");
+              })
+           });
+
+           $(document).ready(function()
+           {
+              $("#btn2").click(function()
+              {
+                $("#demo").toggle("slow");
+              })
+           });
+           </script>
+
+
+
+Cycle plugins
+
+https://malsup.github.io/jquery.cycle.all.
